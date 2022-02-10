@@ -75,7 +75,7 @@ export default function App() {
     setnoHint(0);
     settries(3);
     setStatus("Guess Game");
-    setinputNum(0);
+    setinputNum("");
   }
 
   //Play Again from Start
@@ -87,7 +87,7 @@ export default function App() {
     settries(3);
     setround(1);
     setStatus("Guess Game");
-    setinputNum(0);
+    setinputNum(GAME_START);
   }
 
   //Back to Home Screen
